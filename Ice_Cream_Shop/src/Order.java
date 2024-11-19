@@ -17,6 +17,14 @@ public class Order {
         this.isWaffleCone = isWaffleCone;
     }
 
+    public Map<Flavours, Integer> getScoops() {
+        return scoops;
+    }
+
+    public Map<Toppings, Integer> getToppings() {
+        return toppings;
+    }
+
     public double calculateSubtotal() {
         double total = 0;
         for (Map.Entry<Flavours, Integer> entry : scoops.entrySet()) {
@@ -38,6 +46,8 @@ public class Order {
     public double calculateTotal() {
         return calculateSubtotal() + calculateTax();
     }
+
+
 }
 
 
