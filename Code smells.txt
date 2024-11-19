@@ -1,0 +1,14 @@
+In class InventorySystem.Java:
+1) The class Product should be separate which will also handle the add_product
+method.
+2) Too much if-else conditions: Inside the add_product class, there are too many if conditions.
+3) Too big class
+4) Wrong methods : The calculation methods should be under other class.
+5) Order class should be separate , which will include process order method
+
+In class globalInventoryData:
+1)Calculatediscount method doesn't belongs here. It should be under another separate classes with all other calculate methods
+
+
+In class reportScheduler:
+1) Only one method here, so this class is unnecessary.
