@@ -2,7 +2,7 @@ public class Flavours {
     public String name;
     public double price_per_scoop;
 
-    public void Flavour(String name, double price_per_scoop){
+    public Flavours(String name, double price_per_scoop){
         this.name=name;
         this.price_per_scoop=price_per_scoop;
     }
